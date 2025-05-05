@@ -105,7 +105,7 @@ wg-quick down wg0 && wg-quick up wg0
 
 Este servidor funciona perfectamente con:
 
-`add_peer.sh` - Para clientes Linux/Windows
+`add_peer_pc.sh` - Para clientes Linux/Windows
 
 `add_peer_cel.sh` - Para clientes móviles con QR
 
