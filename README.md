@@ -107,7 +107,7 @@ Este servidor funciona perfectamente con:
 
 `add_peer.sh` - Para clientes Linux/Windows
 
-`add_peer_mobile.sh` - Para clientes móviles con QR
+`add_peer_cel.sh` - Para clientes móviles con QR
 
 ## 📜 Licencia
 
