@@ -112,4 +112,3 @@ Este servidor funciona perfectamente con:
 ## 📜 Licencia
 
 Este proyecto está licenciado bajo la [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/) - consulta el archivo [LICENSE](LICENSE) para más detalles.
-# wireguard
