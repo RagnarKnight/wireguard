@@ -30,6 +30,7 @@ echo "wg set $WG_INTERFACE peer $CLIENT_PUBLIC_KEY allowed-ips $CLIENT_IP" >>"$P
 
 # Crear script de configuracion del cliente
 cat >"$CLIENT_DIR/configurar-${CLIENT}.sh" <<EOF
+
 #!/bin/bash
 
 # Verificar e instalar dependencias
@@ -63,6 +64,9 @@ chmod 600 /etc/wireguard/${CLIENT}.conf
 
 echo "[*] Configuración creada en /etc/wireguard/${CLIENT}.conf"
 echo ">> Ejecutá: wg-quick up ${CLIENT} para iniciar la VPN"
+
+rm configurar-${CLIENT}.sh
+
 EOF
 
 chmod +x "$CLIENT_DIR/configurar-${CLIENT}.sh"
